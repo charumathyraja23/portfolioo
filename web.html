@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charumathy R | Portfolio</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #eef2ff, #fdf2f8);
+            color: #333;
+        }
+
+        /* MAIN PORTFOLIO */
+
+        .portfolio {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+        }
+
+        /* HEADER */
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        header h1 {
+            color: #6c5ce7;
+            font-size: 38px;
+        }
+
+        header p {
+            color: #777;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        /* MAIN TWO COLUMNS */
+
+        .main-section {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        /* ================= LEFT SIDE ================= */
+
+        .left-side {
+            width: 55%;
+            padding: 10px;
+        }
+
+        .left-side h1 {
+            font-size: 42px;
+            color: #6c5ce7;
+            margin-bottom: 10px;
+        }
+
+        .left-side h3 {
+            color: #555;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        /* PERSONAL INFORMATION */
+
+        .personal-info {
+            background: #f8f7ff;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .personal-info h2,
+        .about h2,
+        .skills h2 {
+            color: #6c5ce7;
+            margin-bottom: 15px;
+        }
+
+        .personal-info p {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+
+        .personal-info strong {
+            display: inline-block;
+            width: 150px;
+            color: #6c5ce7;
+        }
+
+        /* ABOUT ME */
+
+        .about {
+            margin-bottom: 30px;
+        }
+
+        .about p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        /* SKILLS */
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #6c5ce7;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+
+        /* ================= RIGHT SIDE ================= */
+
+        .right-side {
+            width: 45%;
+            text-align: center;
+        }
+
+        /* GIRL IMAGE */
+
+        .profile-image {
+            width: 280px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 6px solid #6c5ce7;
+            box-shadow: 0 10px 25px rgba(108,92,231,0.3);
+        }
+
+        .right-side h2 {
+            margin-top: 15px;
+            color: #6c5ce7;
+        }
+
+        /* EXPERIENCE AND STUDIES TABLE */
+
+        .info-table {
+            width: 100%;
+            margin-top: 25px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .info-table th {
+            background: #6c5ce7;
+            color: white;
+            padding: 12px;
+        }
+
+        .info-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .info-table tr:hover {
+            background: #f3f0ff;
+        }
+
+        /* FOOTER */
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background: #6c5ce7;
+            color: white;
+            border-radius: 15px;
+        }
+
+        /* MOBILE RESPONSIVE */
+
+        @media (max-width: 768px) {
+
+            .main-section {
+                flex-direction: column;
+            }
+
+            .left-side,
+            .right-side {
+                width: 100%;
+            }
+
+            .profile-image {
+                width: 220px;
+                height: 260px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            .left-side h1 {
+                font-size: 32px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="portfolio">
+
+        <!-- HEADER -->
+
+        <header>
+            <h1>My Personal Portfolio</h1>
+            <p>Student | Python Developer | Web Developer | AI Enthusiast</p>
+        </header>
+
+
+        <!-- MAIN SECTION -->
+
+        <div class="main-section">
+
+
+            <!-- ================= LEFT SIDE ================= -->
+
+            <div class="left-side">
+
+                <!-- NAME -->
+
+                <h1>Charumathy R</h1>
+
+                <h3>
+                    Computer Science and Design Student
+                </h3>
+
+                <p class="intro">
+                    Passionate Computer Science and Design student interested
+                    in Web Development, Python, Artificial Intelligence,
+                    and innovative technology.
+                </p>
+
+
+                <!-- PERSONAL INFORMATION -->
+
+                <div class="personal-info">
+
+                    <h2>Personal Information</h2>
+
+                    <p>
+                        <strong>Name:</strong>
+                        Charumathy R
+                    </p>
+
+                    <p>
+                        <strong>Age:</strong>
+                        20
+                    </p>
+
+                    <p>
+                        <strong>Date of Birth:</strong>
+                        23 / 07 / 2007
+                    </p>
+
+                    <p>
+                        <strong>Education:</strong>
+                        Computer Science and Design
+                    </p>
+
+                    <p>
+                        <strong>College:</strong>
+                        KSR College of Engineering
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        charumathyraja23@gmail.com
+                    </p>
+
+                </div>
+
+
+                <!-- ABOUT ME -->
+
+                <div class="about">
+
+                    <h2>About Me</h2>
+
+                    <p>
+                        Hello! I am Charumathy R, a passionate Computer Science
+                        and Design student who is interested in technology and
+                        software development. I enjoy learning new technologies
+                        and creating creative and user-friendly applications.
+                    </p>
+
+                    <p>
+                        I have knowledge of HTML, CSS, JavaScript, React JS,
+                        React Native, Python, Flask, and Artificial Intelligence.
+                        I am interested in developing websites, mobile applications,
+                        and AI-based solutions.
+                    </p>
+
+                    <p>
+                        My goal is to continuously improve my technical skills,
+                        gain real-world experience, and become a successful
+                        software developer.
+                    </p>
+
+                </div>
+
+
+                <!-- SKILLS -->
+
+                <div class="skills">
+
+                    <h2>My Skills</h2>
+
+                    <div class="skill-list">
+
+                        <span class="skill">HTML</span>
+
+                        <span class="skill">CSS</span>
+
+                        <span class="skill">JavaScript</span>
+
+                        <span class="skill">React JS</span>
+
+                        <span class="skill">React Native</span>
+
+                        <span class="skill">Python</span>
+
+                        <span class="skill">Flask</span>
+
+                        <span class="skill">AI & ML</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= RIGHT SIDE ================= -->
+
+            <div class="right-side">
+
+                <!-- PROFESSIONAL GIRL IMAGE -->
+
+                <img
+                    src="https://images.pexels.com/photos/13834637/pexels-photo-13834637.jpeg"
+                    class="profile-image"
+                    alt="Professional Girl">
+
+
+                <h2>Charumathy R</h2>
+
+
+                <!-- EXPERIENCE AND STUDIES TABLE -->
+
+                <table class="info-table">
+
+                    <tr>
+                        <th>Category</th>
+                        <th>Details</th>
+                    </tr>
+
+                    <tr>
+                        <td>School</td>
+                        <td>
+                            Akt Academy Matric Higher Secondary School
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>10th Grade</td>
+                        <td>70%</td>
+                    </tr>
+
+                    <tr>
+                        <td>12th Grade</td>
+                        <td>70%</td>
+                    </tr>
+
+                    <tr>
+                        <td>College</td>
+                        <td>
+                            KSR College of Engineering
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Department</td>
+                        <td>
+                            Computer Science and Design
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Experience</td>
+                        <td>
+                            Web Development & Software Projects
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <p>
+                © 2026 Charumathy R | My Personal Portfolio
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
